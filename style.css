@@ -163,10 +163,6 @@ section .title::after{
 
 
 /* home section styling */
-.fos1{
-    height: "1px"
-    width: "1px"
-}
 .fos2{
     text-align: center;
     height: "10px"
