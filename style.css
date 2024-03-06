@@ -164,13 +164,13 @@ section .title::after{
 
 /* home section styling */
 img .fos1{
-    height = "2px"
-    width = "3px"
+    height: "0.5px"
+    width: "0.5px"
 }
 img .fos2{
-    content-align = "center"
-    height = "20px"
-    width = "20px"
+    text-align: center;
+    height: "15px"
+    width: "15px"
 .home{
     display: flex;
     background: url("banner.jpg") no-repeat center;
