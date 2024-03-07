@@ -1,3 +1,6 @@
+ onload="alertUser('Welcome to Foste Investment India Pvt. Ltd.')"
+
+
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
