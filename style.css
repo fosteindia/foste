@@ -734,3 +734,13 @@ footer span a:hover{
 .owl-dot:hover{
   background: #0072bc!important;
 }
+
+
+	table{
+		background-color: aliceblue;
+	}
+	table,tr,th,td{
+		padding: 22px;
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
