@@ -439,3 +439,29 @@ ul{
 .owl-dot:hover{
   background: #0072bc!important;
 }
+
+
+
+/** complain form**/
+
+.complain-form {
+  border: 3px solid #009879;
+  border-radius: 9px;
+  font-weight: bold;
+  padding: 1em;
+  margin-left: 10px;
+
+}
+
+.complain-form span{
+  text-decoration-line: underline;
+  text-decoration-color: #009879;
+  font-weight: bolder;
+}
+
+.complain-form .sub-btn{
+  border: 3px solid #009879;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: bold;
+}
