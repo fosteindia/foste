@@ -1704,7 +1704,17 @@
   </a>
 
 
+<!-- alert box -->
 
+
+  <div class="popup">
+    <div class="popup-content">
+      <h1>X</h1>
+      <h2>NOTICE</h2>
+      <p>"Due to some unforeseen reasons, There will be no investments till further notice, Sorry for inconvinence
+        caused to you - Team Foste India Investment PVT. LTD."</p>
+    </div>
+  </div>
 
 
   <!-- 
@@ -1718,6 +1728,24 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+
+  <script>
+
+    const popup = document.querySelector('.popup');
+    const x = document.querySelector('.popup-content h1')
+
+    window.addEventListener('load', () => {
+      popup.classList.add('showPopup');
+      popup.childNodes[1].classList.add('showPopup');
+    })
+    x.addEventListener('click', () => {
+      popup.classList.remove('showPopup');
+      popup.childNodes[1].classList.remove('showPopup');
+    })
+
+  </script>
+
+  
 </body>
 
 </html>
