@@ -273,6 +273,12 @@ body.nav-active {
   transition: var(--transition-1);
 }
 
+.btn-2{
+
+  margin-left: 20px;
+
+}
+
 .btn:is(:hover, :focus-visible) {
   background-position: right;
 }
